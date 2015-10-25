@@ -1,0 +1,52 @@
+{
+  "name": "nachos-build",
+  "version": "1.0.0",
+  "description": "Build electron packages and upload them",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachos/gulp-nachos-build.git"
+  },
+  "keywords": [
+    "gulp",
+    "nachos",
+    "build",
+    "upload",
+    "electron"
+  ],
+  "author": "Nachos team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nachos/gulp-nachos-build/issues"
+  },
+  "homepage": "https://github.com/nachos/gulp-nachos-build#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.2",
+    "gulp-jscs": "^3.0.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "jscs-nachos": "^1.0.1",
+    "jshint-stylish": "^2.0.1",
+    "lazypipe": "^1.0.1",
+    "mockery": "^1.4.0",
+    "run-sequence": "^1.1.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "electron-packager": "^5.1.0",
+    "jsonfile": "^2.2.3",
+    "lodash": "^3.10.1",
+    "nachos-package-manager": "nachos/package-manager",
+    "ncp": "^2.0.0",
+    "q": "^1.4.1",
+    "rimraf": "^2.4.3"
+  }
+}
